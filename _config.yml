@@ -1,19 +1,19 @@
 # Site settings
 course_name: Modern Cryptography
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
+course_description: "This is a test page. I plan to use this template to manage my course content this year. This is a very basic course on Modern Cryptography, suitable for undergraduate student at Indian Universities/Institutues"
 course_semester: "Fall 2025"
 
 baseurl: "/crypto25" # the subpath of your site, e.g. /blog/
 url: "http://drshashanksingh.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
-twitter_username: username 
+schoolname: "IISERB"
+schoolurl: "https://eecs.iiserb.ac.in/"
+#twitter_username: username 
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    Electrical Engineering & Computer Science 
+    IISERB, Bhopal
+    India
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
