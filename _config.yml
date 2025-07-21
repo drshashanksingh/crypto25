@@ -1,6 +1,7 @@
 # Site settings
 course_name: Modern Cryptography
-course_description: "This is a test page. I plan to use this template to manage my course content this year. This is a very basic course on Modern Cryptography, suitable for undergraduate student at Indian Universities/Institutues"
+course_description: "This is a very basic course on Modern Cryptography, suitable for undergraduate students at Indian Universities/Institutues"
+
 course_semester: "Fall 2025"
 
 baseurl: "/crypto25" # the subpath of your site, e.g. /blog/
@@ -39,7 +40,7 @@ collections:
     lectures:
         output: true
     assignments:
-        output: true
+        output: flase
     announcements:
         output: false
 
