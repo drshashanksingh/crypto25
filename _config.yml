@@ -1,6 +1,6 @@
 # Site settings
 course_name: Modern Cryptography
-course_description: "This is a very basic course on Modern Cryptography, suitable for undergraduate students at Indian Universities/Institutues"
+course_description: "This is a basic course on Modern Cryptography, designed for undergraduate students at Indian universities and institutes. One of the goals of this course is to equip students with the confidence to create public key and secret key pairs, and to use them effectively."
 
 course_semester: "Fall 2025"
 
