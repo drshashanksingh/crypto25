@@ -4,6 +4,9 @@ course_description: "This is a basic course on Modern Cryptography, designed for
 
 course_semester: "Fall 2025"
 
+#baseurl: "/~shashank/crypto25" # the subpath of your site, e.g. /blog/
+#url: "http://localhost/~shashank" # the base hostname & protocol for your site
+
 baseurl: "/crypto25" # the subpath of your site, e.g. /blog/
 url: "http://drshashanksingh.github.io/" # the base hostname & protocol for your site
 
