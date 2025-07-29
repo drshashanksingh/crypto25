@@ -20,8 +20,8 @@ Register to our [Google groups page](https://groups.google.com/forum/#!forum/gp-
 - Public Key Cryptography
 	- Key Exchange Protocols, PKCs (RSA, ElGamal).
 	- Computationally Hard Mathematical Problems and the State-of-the-art Algorithm for solving them.
-	- Lattice-based cryptograph
-	- Digital Signatures and ldentification Schemes.
-	- Security Notions in Public Key Setting.-PKI(Https), TLS, Secret Sharing, Broadcast Encryption, Fingerprinting etc..
+	- Lattice-based cryptography
+	- Digital Signatures and ldentification Schemes
+	- Security Notions in Public Key Setting.-PKI(Https), TLS, Secret Sharing, Broadcast Encryption, Fingerprinting etc.
 - Some other advance cryptographic primitives (basic notions only)
 
