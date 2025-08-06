@@ -10,8 +10,8 @@ course_semester: "Fall 2025"
 baseurl: "/crypto25" # the subpath of your site, e.g. /blog/
 url: "http://drshashanksingh.github.io/" # the base hostname & protocol for your site
 
-schoolname: "IISERB"
-schoolurl: "https://eecs.iiserb.ac.in/"
+schoolname: "TEACHING"
+schoolurl: "https://drshashanksingh.github.io/crypto25/"
 #twitter_username: username 
 
 address: |
