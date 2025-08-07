@@ -32,6 +32,9 @@
   {% if course_description %}
     <meta property="og:description" content="{{ course_description }}">
   {% endif %}
+
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/_images/logo.png">
+  
   {% if page.background.first %}
     {% assign background = page.background.img %}
   {% else %}
