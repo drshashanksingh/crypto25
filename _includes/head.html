@@ -18,6 +18,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- HTML Meta Tags (shashank)-->
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if page.collection == 'posts' %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ page.title }}">
+  {% if course_name %}
+    <meta property="og:description" content="{{ course_name }}">
+    {% if course_semester %}
+    	<meta property="og:description" content="{{ course_semester }}">
+    {% endif %}	
+  {% endif %}
+  
+  {% if course_description %}
+    <meta property="og:description" content="{{ course_description }}">
+  {% endif %}
+  {% if page.background.first %}
+    {% assign background = page.background.img %}
+  {% else %}
+    {% assign background = page.background %}
+  {% endif %}
+  {% if background %}
+    <meta property="og:image" content="{{ background | absolute_url }}">
+  {% endif %}
+  <!-- HTML Meta Tags (end shashank)-->
+
   <title>{% if page.title %} {{ page.title }} - {{ site.course_name }} / {{ site.course_semester }} {% else %}{{ site.course_name }} / {{ site.course_semester }} - {{ site.schoolname }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.title }} - {{ site.course_name }} / {{ site.course_semester }}{% endif %}">
   
@@ -31,5 +55,5 @@
 {% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/favicon.ico"> <!--- Shashank --->
 </head>
