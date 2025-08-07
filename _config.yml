@@ -54,3 +54,6 @@ defaults:
       type: "assignments"
     values:
       layout: "assignment"
+
+## Shashank
+default_og_image: /_images/logo.png

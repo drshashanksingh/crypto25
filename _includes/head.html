@@ -33,16 +33,8 @@
     <meta property="og:description" content="{{ course_description }}">
   {% endif %}
 
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/_images/logo.png">
-  
-  {% if page.background.first %}
-    {% assign background = page.background.img %}
-  {% else %}
-    {% assign background = page.background %}
-  {% endif %}
-  {% if background %}
-    <meta property="og:image" content="{{ background | absolute_url }}">
-  {% endif %}
+  <meta property="og:image" content="{{ page.image | absolute_url | default: site.default_og_image | absolute_url }}">
+
   <!-- HTML Meta Tags (end shashank)-->
 
   <title>{% if page.title %} {{ page.title }} - {{ site.course_name }} / {{ site.course_semester }} {% else %}{{ site.course_name }} / {{ site.course_semester }} - {{ site.schoolname }}{% endif %}</title>
@@ -58,5 +50,15 @@
 {% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-<link rel="icon" type="image/x-icon" href="/favicon.ico"> <!--- Shashank --->
+<!--- For Favicons: Shashank --->
+<!-- For IE 10 and below -->
+<link rel="shortcut icon" href="{{ "/_images/favicon/favicon.ico" | relative_url }}">
+
+<!-- For modern browsers (Chrome, Firefox, Safari, Opera) -->
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/_images/favicon/favicon-16x16.png" | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/_images/favicon/favicon-32x32.png" | relative_url }}">
+
+<!-- For iOS devices (optional, but recommended) -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/_images/favicon/apple-touch-icon.png" | relative_url }}">
+<!--- For Favicons: end Shashank --->
 </head>
