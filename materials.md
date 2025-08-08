@@ -17,3 +17,7 @@ Jonathan Katz and Yehuda Lindell: Introduction to Modern Cryptography
 * [Material #3](https://www.math.auckland.ac.nz/~sgal018/crypto-book/crypto-book.html): Mathematics of Public Key Cryptography by Steven Galbraith
 * [Material #4](https://www.wisdom.weizmann.ac.il/~oded/foc.html): The Foundations of Cryptography by Oded Goldreich
 * [Material #5](https://advancedcrypto.github.io/): Advanced Topics in Cryptography: From Lattices to Program Obfuscation
+
+## YouTube Videos
+
+* [Material #1](https://cryptography101.ca/crypto101-building-blocks/): Cryptography 101 with Alfred Menezes
