@@ -3,9 +3,16 @@ layout: page
 ---
 
 {{ content }}
+
+
+{% for hw in site._homeworks %}
+      <h1> homework </h1>
+{% endfor %}
+<!---
 <ul id="archive">
 {% for asg in site.homeworks %}
-      <li class="archiveposturl" style="background: transparent">
+      {{ asg.type }}
+      <li class="archiveposturl" style="background: transparent"> <span> Shashank</span>
         <span><a href="{{ asg.url | prepend: site.baseurl}}">{{ asg.title }}</a></span>
 <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif; float:right">
 <a title="Download problems (pdf)" href="{{ asg.pdf | prepend: site.baseurl }}"><i class="fas fa-file-pdf"></i></a> 
@@ -16,3 +23,5 @@ layout: page
       </li>
 {% endfor %}
 </ul>
+
+-->

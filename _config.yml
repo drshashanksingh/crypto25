@@ -46,6 +46,8 @@ collections:
         output: flase
     announcements:
         output: false
+    homeworks:
+        output: true
 
 
 defaults:
@@ -54,6 +56,11 @@ defaults:
       type: "assignments"
     values:
       layout: "assignment"
-
+## shashank
+  - scope:
+      path: ""
+      type: "homeworks"
+    values: 
+      layout: "homework"
 ## Shashank
 default_og_image: /_images/logo.png

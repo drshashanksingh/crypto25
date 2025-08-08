@@ -5,4 +5,4 @@ title: 'Homework #1 - How to simulate uniform 1/3 distribution using coin tosses
 pdf: /static_files/homeworks/h1.pdf
 ---
 
-This is a sample homework.
+This is a  homework 1.
