@@ -1,14 +1,15 @@
 ---
 type: assignment
-date: 2018-09-26T4:00:00+4:30
-title: 'Assignment #1 - Sample Assignment'
+date: 2025-08-25T4:00:00+5:30
+title: 'Assignment #1 - Yet to be announced'
 pdf: /static_files/homework/h1.pdf
 # attachment: /static_files/assignments/asg.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
+hide_from_announcments: true
 due_event: 
     type: due
-    date: 2018-11-13T23:59:00+3:30
+    date: 2025-09-05T23:59:00+5:30
     description: 'Assignment #1 due'
 ---
 
-This is a sample assignment.
+I will announce the assignment soon.
