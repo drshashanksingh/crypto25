@@ -3,7 +3,7 @@ type: lecture
 date: 2025-08-6T10:00:00+5:30
 title: Basic Understanding of Cryptography
 tldr: "This is our very first class. We will discuss the term \"cryptography\" and its usefulness in simple terms, highlighting its importance in our daily lives."
-thumbnail: /static_files/presentations/lec1/01-intro.png
+thumbnail: /static_files/presentations/lec1/01-intro.png #Shashank: keep thumnail and pdf same name
 links: 
     - url: /static_files/presentations/lec1/01-intro.pdf
       name: slide
