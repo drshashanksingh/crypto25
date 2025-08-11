@@ -5,7 +5,7 @@ title: Secret key encyption scheme - basic setup (i)
 
 # optional
 # please use /static_files/notes directory to store notes
-thumbnail: /static_files/presentations/lec2/02-ske.png
+thumbnail: /static_files/presentations/lec2/02-basics-of-private-key-encryption.png
 
 # optional
 tldr: "Private key encryption scheme, mathematical setup. Algirithms with coin tossing capability i.e., probabilistic algorithm. Kerckhoffs' Principle and its importance."
@@ -16,7 +16,7 @@ hide_from_announcments: false
 
 # optional
 links: 
-    - url: /static_files/presentations/lec2/02.basics-of-private-key-encryption.pdf
+    - url: /static_files/presentations/lec2/02-basics-of-private-key-encryption.pdf
       name: slides
     #- url: /static_files/presentations/code.zip
     #  name: codes

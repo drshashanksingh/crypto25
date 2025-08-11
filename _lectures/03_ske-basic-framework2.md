@@ -5,7 +5,7 @@ title: Secret key encyption scheme - basic setup (ii)
 
 # optional
 # please use /static_files/notes directory to store notes
-thumbnail: /static_files/presentations/lec3/03-ske.png
+thumbnail: /static_files/presentations/lec3/03-basics-of-private-key-encryption.png
 
 # optional
 tldr: "\"Private key encryption scheme, mathematical setup. Simulation of discrete distributions using coin tosses. Kerckhoffs' Principle and its importance\"-- continued."
@@ -16,7 +16,7 @@ hide_from_announcments: false
 
 # optional
 links: 
-    - url: /static_files/presentations/lec3/03.basics-of-private-key-encryption.pdf
+    - url: /static_files/presentations/lec3/03-basics-of-private-key-encryption.pdf
       name: slides
     #- url: /static_files/presentations/code.zip
     #  name: codes
