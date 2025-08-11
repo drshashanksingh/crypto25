@@ -13,5 +13,6 @@ links:
     #  name: slides
 ---
 **Suggested Readings:**
-- [Cryptography vs Modern Cryptography](https://drshashanksingh.github.io/wic/)
+- [The History of Cryptography](https://www.digicert.com/blog/the-history-of-cryptography)
+- [A Brief History of Cryptography ](https://www.redhat.com/en/blog/brief-history-cryptography)
 - [Introduction to cryptography with Alfred Menezes](https://www.youtube.com/watch?v=jneVyYor9R4)
