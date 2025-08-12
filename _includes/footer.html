@@ -1,3 +1,4 @@
+
 <footer class="site-footer">
 
   <div class="wrapper">
@@ -51,8 +52,12 @@
   </li>
 {% endif %}
 
-          <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=BJm4TijpLW5G_cIduNR-mtJWySd1dzzVJHT4lAV8jqo"></script>
-    
+{% if site.enable_clustrmaps_icon %}
+  <li style="width: 3vw; height: 3vw; margin-left: 1vw; margin-top: 0.5vw;">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d={{ site.clustrmaps }}"></script>
+  </li>
+{% endif %}
+
         </ul>
       </div>
     </div>

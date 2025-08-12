@@ -22,6 +22,10 @@ address: |
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
 
+# Set your ClustrMaps ID (set up yours at http://www.clustrmaps.com/)
+clustrmaps: BJm4TijpLW5G_cIduNR-mtJWySd1dzzVJHT4lAV8jqo
+enable_clustrmaps_icon: true 
+
 ### Do not change the followings unless you know what you are doing ###
 
 # Build settings
