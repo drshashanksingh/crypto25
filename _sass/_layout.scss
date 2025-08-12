@@ -98,13 +98,13 @@
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 3;
     padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(75% - (#{$spacing-unit} / 2));
-    width:         calc(75% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
