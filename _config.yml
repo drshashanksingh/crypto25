@@ -25,6 +25,7 @@ address: |
 # Set your ClustrMaps ID (set up yours at http://www.clustrmaps.com/)
 clustrmaps: BJm4TijpLW5G_cIduNR-mtJWySd1dzzVJHT4lAV8jqo
 enable_clustrmaps_icon: true 
+clustrmaps_id: 1c7l3
 
 ### Do not change the followings unless you know what you are doing ###
 

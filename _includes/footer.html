@@ -53,7 +53,7 @@
 {% endif %}
         </ul>
       </div>
-
+<!--
           {% if site.enable_clustrmaps_icon %}
     <div class="footer-col footer-col-3"><ul class="social-media-list"> 
       <li style="max-width: 3vw; height: auto; text-align: center;" >
@@ -61,7 +61,29 @@
       </li>  </ul>  
     </div>
   {% endif %}
+-->
+      <div class="footer-col footer-col-3">
+        <ul class="social-media-list">
+          <!--
+          {% if site.enable_clustrmaps_icon and site.clustrmaps_id %}
+            <li>
+              <div id="clustrmaps-container">
+                  <script type="text/javascript" id="clstr_globe"  src="//clustrmaps.com/globe.js?d={{ clustrmaps }}"></script>
+              </div>
+            </li>
+          {% endif %}
+          -->
 
+      
+    {% if site.enable_clustrmaps_icon and site.clustrmaps_id %}
+      <a href="https://clustrmaps.com/site/{{ site.clustrmaps_id }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ '_images/globe.jpg' }}"  style="width: 50px; height: 50px; border-radius: 50%; box-shadow: 0 0 10px rgba(45, 125, 165, 0.1);">
+        <span>ClustrMaps</span>
+      </a>
+    {% endif %}
+        </ul>
+      </div>
+<!---->
     </div>
 
   </div>
