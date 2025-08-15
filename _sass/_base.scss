@@ -509,14 +509,18 @@ a.tosu {
 }
 
 #clustrmaps-container {
-    max-width: 3vw; //3%; /* 5vw Adjust the width as needed */
-    max-height: 3vw;;
-    float: center; /* Right align on larger screens */
+    max-width: 5vw; //3%; // 5vw Adjust the width as needed 
+    max-height: 5vw;;
+    float: center; // Right align on larger screens 
+    margin-left: 2px;
+    overflow-y: clip;// hidden;
     }
-    @media (max-width: 30px) { /* 30px Adjust the breakpoint as needed */
-        #clustrmaps-container {
-            max-width: 40vw; //80vw; /* 10% Adjust the width for smaller screens */
-            max-height: 40vw;
-            float: left; /* Keep it right-aligned or change as needed */
-        }
+@media (max-width: 30px) { // 30px Adjust the breakpoint as needed 
+    #clustrmaps-container {
+        max-width: 60vw; //80vw; // 10% Adjust the width for smaller screens 
+        max-height: 60vw;
+        float: left; // Keep it right-aligned or change as needed
+        margin-left: 2px;
+        overflow-y: clip;
     }
+}
