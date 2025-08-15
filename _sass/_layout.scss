@@ -74,7 +74,8 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    background-color: $grey-color; //sahshank
+    border-top: 1px solid $grey-color-dark; //$grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -90,8 +91,10 @@
 }
 
 .footer-col-wrapper {
+    //background-color: $grey-color;//sahshank
     font-size: 15px;
-    color: $grey-color;
+    font-family:  'Titillium Web', sans-serif;
+    color: $grey-color-light;//$grey-color-light//lighten($grey-color, 50)
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }

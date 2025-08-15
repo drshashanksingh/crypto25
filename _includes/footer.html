@@ -5,7 +5,7 @@
     <!--<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d={{ site.clustrmaps }}&w=20"></script>-->
     <!--  <h2 class="footer-heading">{{ site.schoolname }}</h2> -->
     <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
+      <div class="footer-col  footer-col-1" style="color:rgb(251, 251, 251)">
         <p class="text"> {{ site.address | newline_to_br  }} </p>
       </div>
 
@@ -42,7 +42,7 @@
           {% if site.schoolurl %}
             <li>
               <a href="{{site.schoolurl}}">
-                <i class="fas fa-globe" style="color:gray"></i> {{site.schoolurl |  remove: "https://" | remove: "http://" | remove: "www." }}
+                <i class="fas fa-globe" style="color:rgb(241, 241, 239)"></i> {{site.schoolurl |  remove: "https://" | remove: "http://" | remove: "www." }}
               </a>
             </li>
           {% endif %}
