@@ -97,6 +97,12 @@
     color: lighten($footer-color, 50); //$grey-color-light;//$grey-color-light//lighten($grey-color, 50)
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+
+    a,
+    a:hover,
+    a:visited {
+        color: lighten($footer-color, 50);
+    }
 }
 
 .footer-col {

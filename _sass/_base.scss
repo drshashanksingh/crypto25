@@ -517,8 +517,8 @@ a.tosu {
     }
 @media (max-width: 30px) { // 30px Adjust the breakpoint as needed 
     #clustrmaps-container {
-        max-width: 60vw; //80vw; // 10% Adjust the width for smaller screens 
-        max-height: 60vw;
+        max-width: 80vw; //80vw; // 10% Adjust the width for smaller screens 
+        max-height: 8cm;
         float: left; // Keep it right-aligned or change as needed
         margin-left: 2px;
         overflow-y: clip;
