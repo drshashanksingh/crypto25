@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2025-08-08T10:00:00+5:30
-title: Secret key encyption scheme - basic setup (ii)
+title: Private key encyption scheme - basic setup (ii)
 
 # optional
 # please use /static_files/notes directory to store notes
