@@ -6,4 +6,4 @@ pdf: /static_files/homeworks/h2.pdf
 hide_from_announcments: true
 ---
 
-This is a  homework 2.
+This is homework 2.
