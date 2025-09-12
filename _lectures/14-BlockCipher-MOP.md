@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2025-09-10T10:00:00+5:30
+date: 2025-09-11T10:00:00+5:30
 title: Modes of Operations of Block Cipher
 
 # optional
