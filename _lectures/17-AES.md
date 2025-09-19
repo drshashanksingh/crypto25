@@ -22,8 +22,8 @@ links:
     #  name: codes
     - url: https://cryptography101.ca/wp-content/uploads/2025/09/V2-slides-Crypto101.pdf
       name: Alfred's slides
-    #- url: https://example.com
-    #  name: other
+    - url: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf
+      name: FIPS 197
 ---
 <!-- Other additional contents using markdown -->
 **Suggested Readings:**
