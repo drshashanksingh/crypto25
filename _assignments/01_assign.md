@@ -8,7 +8,7 @@ pdf: /static_files/assignments/a1.pdf
 hide_from_announcments: false
 due_event: 
     type: due
-    date: 2025-11-21T23:59:00+5:30
+    date: 2025-11-21T23:59:59+5:30
     description: 'Assignment #1 due'
 ---
 
